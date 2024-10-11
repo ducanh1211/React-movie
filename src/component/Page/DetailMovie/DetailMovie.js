@@ -55,6 +55,7 @@ const DetailMovie = () => {
                                             <Modal.Title>Modal heading</Modal.Title>
                                             </Modal.Header>
                                             <Modal.Body>
+                                                {findtrailer ? (
                                                 <iframe 
                                                     width="560" 
                                                     height="315" 
@@ -66,6 +67,9 @@ const DetailMovie = () => {
                                                     allowfullscreen>
 
                                                 </iframe>
+                                                ): (
+                                                    <p>no trailer</p>
+                                                )}
                                             </Modal.Body>
                                         </Modal>
                                         </>
