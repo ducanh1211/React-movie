@@ -1,0 +1,15 @@
+button{
+    align-items: center;
+    background-color: #e2d703;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+   margin: 0 auto;
+   padding: 10px 20px;
+
+}
+i{
+    margin-right: 5px;
+}

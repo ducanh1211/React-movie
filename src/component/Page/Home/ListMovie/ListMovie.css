@@ -1,0 +1,12 @@
+.head-line{
+    padding: 30px 0;
+    text-align: center;
+}
+.head-line h3{
+    color: #e2d703;
+    font-size: 15px;
+    font-weight: 300;
+}
+.head-line h1{
+  color: white;
+}
